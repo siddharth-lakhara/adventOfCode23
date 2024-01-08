@@ -10,7 +10,7 @@ public class Example {
         Scanner inStream = null;
         try {
             BufferedReader br = new BufferedReader(
-                    new FileReader("day3_example"));
+                    new FileReader("resources/day3_example"));
             inStream = new Scanner(br);
         } catch (Exception e) {
             System.out.println("Exception:" + e.getMessage());
@@ -20,3 +20,4 @@ public class Example {
         }
     }
 }
+
