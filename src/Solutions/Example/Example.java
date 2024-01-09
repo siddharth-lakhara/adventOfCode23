@@ -12,6 +12,10 @@ public class Example {
             BufferedReader br = new BufferedReader(
                     new FileReader("resources/day3_example"));
             inStream = new Scanner(br);
+
+            while (inStream.hasNextLine()) {
+                String line = inStream.nextLine();
+            }
         } catch (Exception e) {
             System.out.println("Exception:" + e.getMessage());
         } finally {
