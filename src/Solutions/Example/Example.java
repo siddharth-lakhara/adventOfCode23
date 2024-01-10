@@ -10,7 +10,7 @@ public class Example {
         Scanner inStream = null;
         try {
             BufferedReader br = new BufferedReader(
-                    new FileReader("resources/day3_example"));
+                    new FileReader("resources/day7/example"));
             inStream = new Scanner(br);
 
             while (inStream.hasNextLine()) {
