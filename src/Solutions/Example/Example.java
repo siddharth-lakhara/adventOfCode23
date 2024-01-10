@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Example {
 
-    public void solveExample() {
+    public void solvePart1() {
         Scanner inStream = null;
         try {
             BufferedReader br = new BufferedReader(
