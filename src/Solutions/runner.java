@@ -1,12 +1,12 @@
 package Solutions;
 
-import Solutions.Day9.Day9;
+import Solutions.Day10.Day10;
 
 import java.io.IOException;
 
 public class runner {
     public static void main(String[] args) throws IOException {
-        Day9 d = new Day9();
-        d.solvePart2();
+        Day10 d = new Day10();
+        d.solvePart1();
     }
 }
